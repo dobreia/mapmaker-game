@@ -1,5 +1,7 @@
 # Mapmaker Game
 
+🌐 Live demo: https://dobreia.github.io/mapmaker-game/index.html
+
 ## 🎮 Áttekintés
 
 A Mapmaker Game egy egyszemélyes, stratégiai jellegű tile placement játék, amely JavaScript-ben készült.
@@ -11,7 +13,7 @@ A játék során egy 11x11-es rácsos térképre kell különböző alakzatú te
 ## 🚀 Játékmenet
 
 - A játék egy 11x11-es térképen zajlik
-- Véletlenszerűen kapott elemeket kell elhelyezni (erdő, víz, város, farm)
+- Véletlenszerűen kapott elemeket kell elhelyezni, a térképre kattintva. (erdő, víz, város, farm)
 - Minden elem időegységbe kerül
 - A játék összesen 28 időegységig tart
 - Az elemek:
