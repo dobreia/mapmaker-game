@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="game-container" class="col-sm">
+                <div id="map"></div>
+            </div>
+            <div id="right" class="col-sm">
+                <div id="season-container">
+                    <div id="seasons">
+                        <div class="season" id="spring">
+                            <p>Tavasz</p><span id="spring-point" class="point">0</span>
+                        </div>
+                        <div class="season" id="summer">
+                            <p>Nyár</p><span id="summer-point" class="point">0</span>
+                        </div>
+                        <div class="season" id="autumn">
+                            <p>Ősz</p><span id="autumn-point" class="point">0</span>
+                        </div>
+                        <div class="season" id="winter">
+                            <p>Tél</p><span id="winter-point" class="point">0</span>
+                        </div>
+                    </div>
+                    <p>Összesen: <span id="sum-point"></span></p>
+                </div>
+                <div id="info-container">
+                    <div id="button-text-container">
+                        <p>Hátralévő idő: <span id="time-left"></span></p>
+                        <p>Lehelyezendő elem: <span id="current-element"></span></p>
+                        <div id="button-container">
+                            <button id="rotate-button">Forgatás</button>
+                            <button id="mirror-button">Tükrözés</button>
+                        </div>
+                    </div>
+                    <table id="current-element-table">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <h2>Küldetések</h2>
+                <div id="mission-container">
+                    <div id="mission-A" class="mission">
+                        <div class="title-container">
+                            <h3 class="abc">A</h3>
+                            <h4 class="mission-title" id="missionTitle-A"></h4>
+                        </div>
+                        <div class="des-container">
+                            <p id="missionDescription-A"></p>
+                            <p>Pontszám: <span id="mission-a-points">0</span></p>
+                        </div>
+                    </div>
+                    <div id="mission-B" class="mission">
+                        <div class="title-container">
+                            <h3 class="abc">B</h3>
+                            <h4 class="mission-title" id="missionTitle-B"></h4>
+                        </div>
+                        <div class="des-container">
+                            <p id="missionDescription-B"></p>
+                            <p>Pontszám: <span id="mission-b-points">0</span></p>
+                        </div>
+                    </div>
+                    <div id="mission-C" class="mission">
+                        <div class="title-container">
+                            <h3 class="abc">C</h3>
+                            <h4 class="mission-title" id="missionTitle-C"></h4>
+                        </div>
+                        <div class="des-container">
+                            <p id="missionDescription-C"></p>
+                            <p>Pontszám: <span id="mission-c-points">0</span></p>
+                        </div>
+                    </div>
+                    <div id="mission-D" class="mission">
+                        <div class="title-container">
+                            <h3 class="abc">D</h3>
+                            <h4 class="mission-title" id="missionTitle-D"></h4>
+                        </div>
+                        <div class="des-container">
+                            <p id="missionDescription-D"></p>
+                            <p>Pontszám: <span id="mission-d-points">0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

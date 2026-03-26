@@ -1,0 +1,191 @@
+/* Alapvető stílusok */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#game-container {
+    height: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#seasons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#season-container {
+    text-align: center;
+}
+
+#season-container p {
+    font-weight: bold;
+}
+
+.season {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.season p {
+    font-weight: bold;
+    margin: 0
+}
+
+#button-container {
+    display: flex;
+    gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {
+    display: grid;
+    grid-template-columns: repeat(11, 55px);
+    grid-template-rows: repeat(11, 55px);
+}
+
+#map .cell {
+    width: 55px;
+    height: 55px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+#button-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#current-element-table {
+    width: 150px;
+    height: 150px;
+    border-spacing: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#current-element-table td {
+    border: 1px solid black;
+    width: 30px;
+}
+
+
+button {
+    height: 40px;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#right h2 {
+    margin-bottom: -10px;
+    font-size: 25px;
+}
+
+#mission-container {
+    margin-top: 20px;
+}
+
+.abc {
+    padding: 5px;
+    border-radius: 0 0 5px 0;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.mission {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.mission-title {
+    font-weight: bold;
+    margin: auto 5px auto 10px;
+    font-size: 16px;
+}
+
+.mission h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.mission p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.mission p span {
+    font-weight: bold;
+}
+
+.des-container {
+    padding: 0 10px
+}
+
+#mission-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.mission {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.mission:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.mission:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.mission:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2;
+}
